@@ -1,0 +1,8 @@
+---
+- hosts: all
+  roles:
+    - { role: ./}
+  tasks:
+    - name: Print name
+      debug:
+        msg: "{{ random_name_full }}"
