@@ -6,18 +6,13 @@ This role will generate a random name similar to docker
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+This role *does not* alter your system.  You will be able to use the random name by referencing `{{ random_name_full }}`
 
-    - hosts: servers
+    ---
+    - hosts: all
       roles:
-         - { role: username.rolename, x: 42 }
-
-License
--------
-
-BSD
-
-Author Information
-------------------
-
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+        - { role: xandout.random_name}
+      tasks:
+        - name: Print name
+          debug:
+            msg: "{{ random_name_full }}"

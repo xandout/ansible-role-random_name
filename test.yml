@@ -1,7 +1,7 @@
 ---
 - hosts: all
   roles:
-    - { role: ./}
+    - { role: xandout.random_name}
   tasks:
     - name: Print name
       debug:
