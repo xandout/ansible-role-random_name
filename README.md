@@ -1,4 +1,4 @@
-[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-docker-blue.svg?style=flat-square)](https://galaxy.ansible.com/xandout/random_name)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-xandout.random_name-blue.svg?style=flat-square)](https://galaxy.ansible.com/xandout/random_name)
 
 Random Name Generator
 =========
