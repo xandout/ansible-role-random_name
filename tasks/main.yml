@@ -1,4 +1,4 @@
 ---
 - name: Generate random name - full
   set_fact: 
-    random_name_full: "{{ random_name_left | random }}{{ random_name_seprerator | default('_') }}{{ random_name_right | random }}"
+    random_name_full: "{{ random_name_left | random }}{{ random_name_seperator | default('_') }}{{ random_name_right | random }}"
